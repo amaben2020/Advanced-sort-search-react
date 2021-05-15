@@ -5,7 +5,7 @@ const AppointmentForm = ({
 	toggler,
 	toggle,
 	onSendAppointment,
-	setToggleForm,
+
 	lastId,
 	setToggle,
 }) => {
@@ -43,8 +43,8 @@ const AppointmentForm = ({
 					className="bg-blue-400 text-white px-2 py-3 w-full text-left rounded-t-md"
 				>
 					<div>
-						<BiCalendarPlus className="inline-block align-text-top" /> Add
-						Appointment
+						<BiCalendarPlus className="inline-block align-text-top" /> Click To
+						Book Your Pet's Appointment 🐱 🐏
 					</div>
 				</button>
 				{toggle && (
