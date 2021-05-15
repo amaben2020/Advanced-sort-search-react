@@ -65,7 +65,7 @@ function App() {
 				)}
 			/>
 			<h1 className="text-5Xl">
-				<BiArchive className="inline-block text-red-400" /> Appointment{" "}
+				<BiArchive className="inline-block text-red-400" /> Pet Appointment 🐶{" "}
 			</h1>
 			<Search
 				sortToggler={sortToggler}
