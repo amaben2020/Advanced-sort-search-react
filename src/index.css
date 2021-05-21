@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 /* pagination Button
-
+ The classes
 containerClassName={"paginationBtns"}
 				previousLinkClassName={"previousBtns"}
 				nextLinkClassName={"nextBtns"}
