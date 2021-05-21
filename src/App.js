@@ -15,7 +15,7 @@ function App() {
 	let [orderBy, setOrderBy] = useState("asc");
 
 	//////////////////////////////////////////////
-	/// PAGINATION LOGIC
+	/// PAGINATION LOGIC VERY EASY
 	//The pagination state
 	const [pageNumber, setPageNumber] = useState(0);
 
