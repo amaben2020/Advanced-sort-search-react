@@ -5,7 +5,6 @@ const AppointmentForm = ({
 	toggler,
 	toggle,
 	onSendAppointment,
-
 	lastId,
 	setToggle,
 }) => {

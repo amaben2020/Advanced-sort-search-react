@@ -2,3 +2,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* pagination Button
+
+containerClassName={"paginationBtns"}
+				previousLinkClassName={"previousBtns"}
+				nextLinkClassName={"nextBtns"}
+				disabledClassName={"paginationDisabled"}
+				activeClassName={"paginationActive"}
+
+*/
+
+.paginationBtns {
+	display: flex;
+	width: 80%;
+	height: 90px;
+	justify-content: center;
+	list-style: none;
+}
+
+.paginationBtns a:hover {
+	background-color: white;
+	color: #2b2eff;
+	transform: translateY(2rem) scale(1.33);
+}
+
+.paginationActive a {
+	background-color: #2b2eff;
+	color: white;
+}
+
+.paginationBtns a {
+	padding: 10px;
+	margin: 8px;
+	border-radius: 5px;
+	border: 1px solid #2b2eff;
+	color: white;
+	cursor: pointer;
+	background-color: #2b2eff;
+}
