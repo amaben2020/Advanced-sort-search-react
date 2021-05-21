@@ -19,6 +19,7 @@ containerClassName={"paginationBtns"}
 	height: 90px;
 	justify-content: center;
 	list-style: none;
+	margin-top: 4rem;
 }
 
 .paginationBtns a:hover {
@@ -27,9 +28,11 @@ containerClassName={"paginationBtns"}
 	transform: translateY(2rem) scale(1.33);
 }
 
-.paginationActive a {
-	background-color: #2b2eff;
+.paginationActive {
+	background-color: #ec3434;
 	color: white;
+	height: 34px;
+	border-radius: 30%;
 }
 
 .paginationBtns a {
